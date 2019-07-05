@@ -23,9 +23,9 @@
                                     <tbody>
                                     	   <?php
                                 include 'koneksi.php';
-                                $sql = mysql_query("select * from makanan") or die (mysql_error());
+                                $sql = mysqli_query($kon,"select * from makanan") or die (mysqli_error());
                                 $no=1;
-                                while ($data = mysql_fetch_array($sql)){
+                                while ($data = mysqli_fetch_array($sql)){
                                 ?> 
                                         <tr class="odd gradeX">
                                             <td><?php echo $data['br_nm']; ?></td>

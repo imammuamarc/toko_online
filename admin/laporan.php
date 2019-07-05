@@ -35,7 +35,7 @@ ob_start();
 <form name="form1" method="post" action="">
   <div align="center">
     <p align="center" class="style4"><img src="L.png" width="80" height="80">
-    <p align="center" class="style12"> LAPORAN TRANSAKSI TOKO AQILLAH MART </p>
+    <p align="center" class="style12"> LAPORAN TRANSAKSI LOMBOK MART</p>
     </p>
     <table width="856" border="1" cellpadding="0" cellspacing="0">
       <tr bgcolor="#006600">
@@ -54,9 +54,9 @@ ob_start();
 <?php
 include 'koneksi.php';
 $id_transaksi = @$_POST['id_transaksi'];
-$sql = mysql_query("select * from transaksi where id_transaksi = '$id_transaksi'") or die(mysql_error());
+$sql = mysqli_query($kon,"select * from transaksi where id_transaksi = '$id_transaksi'") or die(mysqli_error());
 $no=1;
-while ($data=mysql_fetch_array($sql))
+while ($data=mysqli_fetch_array($sql))
 {
 ?>
       <tr bgcolor="#996600">

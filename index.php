@@ -216,7 +216,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- top-brands -->
 	<div class="top-brands">
 		<div class="container">
-			<h3> Prodact Kami</h3>
+			<h3> Produk Kami</h3>
 			<div class="agile_top_brands_grids">
 				 <?php
                     $sql = mysqli_query($koneksi, "SELECT * FROM barang ORDER BY br_id DESC limit 6");

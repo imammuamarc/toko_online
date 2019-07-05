@@ -24,8 +24,8 @@
                                     <tbody>
                                     	<?php
                                     	include 'koneksi.php';
-                                    	$sql = mysql_query("select * from transaksi") or die(mysql_error());
-                                    	while ($data=mysql_fetch_array($sql)) {
+                                    	$sql = mysqli_query($kon,"select * from transaksi") or die(mysqli_error());
+                                    	while ($data=mysqli_fetch_array($sql)) {
                                     	 ?>
                                         <tr class="odd gradeX">
                                             <td> <?php echo $data['id_transaksi']; ?> </td>

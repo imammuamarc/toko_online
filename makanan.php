@@ -12,7 +12,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title> toko aqilla mart</title>
+<title> LOMBOK MART</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -65,7 +65,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="w3ls_vegetables">
 							<ul class="dropdown-menu drp-mnu">
 								<li><a href="login.php">Login</a></li> 
-								<li><a href="login.html">Sign Up</a></li>
+								<!-- <li><a href="login.html">Sign Up</a></li> -->
 							</ul>
 						</div>                  
 					</div>	
@@ -96,7 +96,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="logo_products">
 		<div class="container">
 			<div class="w3ls_logo_products_left">
-				<h1><a href="index.html"><span>TOKO ONLINE</span> AQILLA MART</a></h1>
+				<h1><a href="index.html"><span>TOKO ONLINE</span> LOMBOK MART</a></h1>
 			</div>
 			<div class="w3ls_logo_products_left1">
 				<!--<ul class="special_items">
@@ -121,7 +121,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<ul>
 				<li><i class="fa fa-home" aria-hidden="true"></i><a href="index.php">Home</a><span>|</span></li>
-				<li> Selamat Datang di AQILLA MART !!</li>
+				<li> Selamat Datang di LOMBOK MART !!</li>
 			</ul>
 		</div>
 	</div>
@@ -181,8 +181,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</li>
 					</ul>
 				</div>
-				 Kami adalah superrmarket terlengkap, disini kamu dapat membeli apa saja yang kamu butuhkan dengan harga bersahabat, dekat dengan kampus !!<br>
-				<b>Selamat berbelanja Custumer ...</b>
+				Kami adalah Toko Online yang menyediakan barang-barang khas lombok, disini dapat membeli dan mengetahui apa saja khas lombok !!<br>
+				<b>Happy Shopping...</b>
 
 			</section>
 			<!-- flexSlider -->
@@ -270,7 +270,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="agile_footer_grids">
 				<div class="col-md-3 w3_footer_grid agile_footer_grids_w3_footer">
 					<div class="w3_footer_grid_bottom">
-						<h4><p>© 2016 Aqilla Mart | Design by Yaminbae </p></h4>
+						<h4><p>© 2019 Lombok Mart | Design by Four Group </p></h4>
 						
 					</div>
 				</div>

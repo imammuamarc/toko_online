@@ -37,8 +37,8 @@
 								    <label> Status Barang</label> 
 								    <select class="form-control" style=" width: 300px; height: 30px; border: 2px; " name="br_sts">
 								    	<option> -- Pilih Status </option>
-								    	<option name="br_sts" value="Y"> Y </option>
-								    	<option name="br_sts" value="N"> N</option>
+								    	<option name="br_sts" value="Y"> Available</option>
+								    	<option name="br_sts" value="N"> Non Available</option>
 								    </select>
 								</div>
 								<div class="form-group">
@@ -89,7 +89,7 @@
         $pindah = move_uploaded_file($sumber, $target.$nama_gambar);
 
         if ($pindah) {
-          mysql_query("insert into barang values ('$br_id','$br_nm','$br_item','$br_hrg','$br_stok','$br_satuan', '$ket','$br_sts' ,'$nama_gambar')") or die (mysql_error());
+          mysqli_query($kon,"insert into barang values ('$br_id','$br_nm','$br_item','$br_hrg','$br_stok','$br_satuan', '$ket','$br_sts' ,'$nama_gambar')") or die (mysql_error());
            ?>
 
          <script type="text/javascript">

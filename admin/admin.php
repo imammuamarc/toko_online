@@ -6,7 +6,7 @@ include('config/cekadmin.php');
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Halaman admin aqilla mart</title>
+    <title>LOMBOK MART</title>
   <!-- BOOTSTRAP STYLES-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FONTAWESOME STYLES-->
@@ -28,7 +28,7 @@ include('config/cekadmin.php');
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="admin.php"> AQILLA MART</a> 
+                <a class="navbar-brand" href="admin.php"> LOMBOK MART</a> 
             </div>
   <div style="color: white;
 padding: 15px 50px 5px 50px;
@@ -146,7 +146,7 @@ font-size: 16px;"> &nbsp; <a href="logout.php" class="btn btn-danger square-btn-
                     }
                       # code...
                   }elseif ($page=="") {
-                    echo "SELAMAT DATANG DI HALAMAN ADMIN AQILLA MART";
+                    echo "SELAMAT DATANG DI HALAMAN ADMIN LOMBOK MART";
 
                       # code...
                   }else{

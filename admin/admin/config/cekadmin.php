@@ -1,4 +1,4 @@
-
+<!-- 
 	<?php
 session_start();
 //cek apakah user sudah login
@@ -11,4 +11,4 @@ if(!isset($_SESSION['username'])){
 if($_SESSION['level']!="Administrator"){
     die("Anda bukan admin");
 }
-?>
+?> -->

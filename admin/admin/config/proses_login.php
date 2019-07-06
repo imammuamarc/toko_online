@@ -27,11 +27,6 @@ $error = " <h4 style='color:red;'> OPPPSS !!</h4><h5> MAAF, username/password An
 		{
 		header("Location:admin/admin.php");
 		}
-		else if($row['level'] =="anggota" && $level=="2")
-		{
-			header("Location: anggota.php");
-		}
-	
 		else
 		{
 			$error = "Failed Login";

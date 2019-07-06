@@ -4,7 +4,7 @@ author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
-<?php require_once("koneksi.php");
+<?php require_once('koneksi/+connection.php');
     if (!isset($_SESSION)) {
         session_start();
     } ?>
@@ -59,17 +59,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<div class="w3l_header_right">
 			<ul>
-				<li class="dropdown profile_details_drop">
+				<!-- <li class="dropdown profile_details_drop">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i><span class="caret"></span></a>
 					<div class="mega-dropdown-menu">
 						<div class="w3ls_vegetables">
 							<ul class="dropdown-menu drp-mnu">
 								<li><a href="login.php">Login</a></li> 
-								<!-- <li><a href="login.html">Sign Up</a></li> -->
+								<li><a href="login.html">Sign Up</a></li>
 							</ul>
 						</div>                  
 					</div>	
-				</li>
+				</li> -->
 			</ul>
 		</div>
 		<div class="w3l_header_right1">
@@ -218,7 +218,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<h3> Produk Makanan </h3>
 			<div class="agile_top_brands_grids">
 				 <?php
-                    $sql = mysqli_query($koneksi, "SELECT * FROM makanan ORDER BY br_id DESC limit 12");
+                    $sql = mysqli_query($connection, "SELECT * FROM makanan ORDER BY br_id DESC limit 12");
                     while($data = mysqli_fetch_array($sql)){
                     ?>
 				

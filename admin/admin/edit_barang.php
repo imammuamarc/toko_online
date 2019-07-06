@@ -10,8 +10,8 @@
 						    <?php
     include"koneksi.php";
 $kdbrg = @$_GET['kdbrg'];
-$sql = mysql_query("select * from barang where br_id = '$kdbrg'") or die(mysql_error());
-$data = mysql_fetch_array($sql);
+$sql = mysqli_query($kon,"select * from barang where br_id = '$kdbrg'") or die(mysqli_error());
+$data = mysqli_fetch_array($sql);
 
 ?>
 								<form  action="" method="post" enctype="multipart/form-data" role="form">
@@ -49,7 +49,7 @@ $data = mysql_fetch_array($sql);
 								    </select>
 								</div>
 								<div class="form-group">
-									<input type="submit" name="edit" value="Ubah Data" class="btn btn-info">
+									<input type="submit" name="edit" value="Ubah" class="btn btn-info">
 									<input type="reset" name="reset" value="Reset" class="btn btn-danger">
 									
 								</div>
@@ -67,16 +67,12 @@ $data = mysql_fetch_array($sql);
       $br_sts = @$_POST['br_sts'];
 
 
-      $sumber = @$_FILES['br_gbr']['tmp_name'];
-      $target = 'assets/images/';
-      $nama_gambar = @$_FILES['br_gbr']['name'];
-
-
-      $simpan_data = @$_POST['simpan']; 
+      $simpan_data = @$_POST['Ubah']; 
 
       if ($simpan_data) {
 
-        if ($br_nm == "" || $br_item == "" || $br_hrg == "" || $br_stok == "" || $br_satuan== "" || $ket=="" || $br_sts=="" || $nama_gambar == ""){
+		if ($br_nm == "" || $br_item == "" || $br_hrg == "" || $br_stok == "" || $br_satuan== "" || $ket==""
+		 || $br_sts=="" || $nama_gambar == ""){
                    ?>
 
                    <script type="text/javascript">
@@ -88,10 +84,7 @@ $data = mysql_fetch_array($sql);
        } else{
 
 
-        $pindah = move_uploaded_file($sumber, $target.$nama_gambar);
-
-        if ($pindah) {
-          mysql_query("insert into barang values ('$br_id','$br_nm','$br_item','$br_hrg','$br_stok','$br_satuan', '$ket','$br_sts' ,'$nama_gambar')") or die (mysql_error());
+          mysqli_query($kon,"update barang set br_id('$br_nm','$br_item','$br_hrg','$br_stok','$br_satuan', '$ket','$br_sts' )") or die (mysqli_error());
            ?>
 
          <script type="text/javascript">
@@ -99,18 +92,7 @@ $data = mysql_fetch_array($sql);
          </script>
          <?php
 
-       } else{
-
-
-        ?>
-         <script type="text/javascript">
-                  
-         alert("Oops...", "gambar gagal disimpan  !!:(", "error");
-          </script>         
-
-        <?php
-       }
-
+      
         }
 
         }
@@ -125,7 +107,3 @@ $data = mysql_fetch_array($sql);
 	</div>
 
 
-<!-- bAGI DUA BROO-->
-	<div class="col-md-6">
-		MKMKMK
-	</div>

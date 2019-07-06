@@ -49,7 +49,7 @@ $data = mysqli_fetch_array($sql);
 								    </select>
 								</div>
 								<div class="form-group">
-									<input type="submit" name="edit" value="Ubah Data" class="btn btn-info">
+									<input type="submit" name="edit" value="Ubah" class="btn btn-info">
 									<input type="reset" name="reset" value="Reset" class="btn btn-danger">
 									
 								</div>
@@ -67,16 +67,14 @@ $data = mysqli_fetch_array($sql);
       $br_sts = @$_POST['br_sts'];
 
 
-    //   $sumber = @$_FILES['br_gbr']['tmp_name'];
-    //   $target = 'assets/images/';
-    //   $nama_gambar = @$_FILES['br_gbr']['name'];
 
 
-      $simpan_data = @$_POST['edit']; 
+      $simpan_data = @$_POST['ubah']; 
 
       if ($simpan_data) {
 		echo "<script>alert('ddd')</script>";
-        if ($br_nm == "" || $br_item == "" || $br_hrg == "" || $br_stok == "" || $br_satuan== "" || $ket=="" || $br_sts==""){
+		if ($br_nm == "" || $br_item == "" || $br_hrg == "" || $br_stok == "" || $br_satuan== "" 
+		|| $ket=="" || $br_sts==""){
                    ?>
 
                    <script type="text/javascript">
@@ -87,11 +85,7 @@ $data = mysqli_fetch_array($sql);
            
        } else{
 
-
-        // $pindah = move_uploaded_file($sumber, $target.$nama_gambar);
-
-        if ($pindah) {
-          mysqli_query($kon,"insert into barang values ('$br_id','$br_nm','$br_item','$br_hrg','$br_stok','$br_satuan', '$ket','$br_sts' ,'$nama_gambar')") or die (mysqli_error());
+          mysqli_query($kon,"update barang set br_id ('$br_nm','$br_item','$br_hrg','$br_stok','$br_satuan', '$ket','$br_sts' ,'$nama_gambar')") or die (mysqli_error());
            ?>
 
          <script type="text/javascript">
@@ -99,7 +93,7 @@ $data = mysqli_fetch_array($sql);
          </script>
          <?php
 
-       } else{
+       } 
 		
 
         ?>
@@ -109,11 +103,11 @@ $data = mysqli_fetch_array($sql);
           </script>         
 
         <?php
-       }
+       
 
         }
 
-        }
+        
       
 
      ?>

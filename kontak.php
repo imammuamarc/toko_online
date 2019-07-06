@@ -71,7 +71,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <input type="submit" value=" ">
       </form>-->
     </div>
-    <div class="w3l_header_right">
+    <!-- <div class="w3l_header_right">
       <ul>
         <li class="dropdown profile_details_drop">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i><span class="caret"></span></a>
@@ -85,7 +85,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           </div>  
         </li>
       </ul>
-    </div>
+    </div> -->
     <div class="w3l_header_right1">
       <h2><a href="kontak.php"> Hubungi Kami</a></h2>
     </div>
@@ -232,9 +232,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 				</div>
 				<div class="col-md-3 agileits_team_grid">
-					<img src="asset/kontak/ipank.jpg" alt=" " class="img-responsive" />
+					<img src="asset/kontak/imam.jpg" alt=" " class="img-responsive" />
 					<h4> Imam Muammar</h4>
-					<p>frontend Developer</p>
+					<p>Frontend Developer</p>
 					<ul class="agileits_social_icons agileits_social_icons_team">
 						<li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						<li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -268,7 +268,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       <div class="agile_footer_grids">
         <div class="col-md-3 w3_footer_grid agile_footer_grids_w3_footer">
           <div class="w3_footer_grid_bottom">
-            <h4><p>© 2016 Aqilla Mart | Design by Yaminbae </p></h4>
+            <h4><p>© 2019 LOMBOK MART | Design by Four Group </p></h4>
             
           </div>
         </div>

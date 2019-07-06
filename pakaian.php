@@ -4,7 +4,7 @@ author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
-<?php require_once("koneksi.php");
+<?php require_once('koneksi/+connection.php');
     if (!isset($_SESSION)) {
         session_start();
     } ?>
@@ -206,7 +206,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<h3> Produk Pakaian </h3>
 			<div class="agile_top_brands_grids">
 				 <?php
-                    $sql = mysqli_query($koneksi, "SELECT * FROM barang ORDER BY br_id DESC limit 12");
+                    $sql = mysqli_query($connection, "SELECT * FROM barang ORDER BY br_id DESC limit 12");
                     while($data = mysqli_fetch_array($sql)){
                     ?>
 				

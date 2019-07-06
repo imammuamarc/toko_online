@@ -40,7 +40,7 @@ font-size: 16px;"> &nbsp; <a href="logout.php" class="btn btn-danger square-btn-
             <div class="sidebar-collapse">
                 <ul class="nav" id="main-menu">
         <li class="text-center"><!--
-                    <img  src="assets/img/find_user.png" class="user-image img-responsive"/> -->
+                    <img  src="pakaian/2.png" class="user-image img-responsive"/> -->
                     <br>
                       <div class="image">
                     <?php $nama = $_SESSION['username'];

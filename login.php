@@ -82,9 +82,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </li>
       </ul> -->
     </div>
-    <div class="w3l_header_right1">
-      <h2><a href="kontak.php"> Hubungi Kami</a></h2>
-    </div>
+   
     <div class="clearfix"> </div>
   </div>
 <!-- script-for sticky-nav -->
@@ -103,66 +101,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   });
   </script>
 <!-- //script-for sticky-nav -->
-  <div class="logo_products">
-    <div class="container">
-      <div class="w3ls_logo_products_left">
-        <h1><a href="index.html"><span>TOKO ONLINE</span> LOMBOK MART</a></h1>
-      </div>
-      <div class="w3ls_logo_products_left1">
-      
-      </div>
-      <div class="w3ls_logo_products_left1">
-        <!--<ul class="phone_email">
-          <li><i class="fa fa-phone" aria-hidden="true"></i>(+0123) 234 567</li>
-          <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:store@grocery.com">ocikyamin93@gmail.com</a></li>
-        </ul> -->
-      </div>
-      <div class="clearfix"> </div>
-    </div>
-  </div>
+ 
 <!-- //header -->
 <!-- products-breadcrumb -->
-  <div class="products-breadcrumb">
-    <div class="container">
+
+  <div class="products-breadcrumb" style="background-color: green">
+    <div class="container" align="center">
       <ul>
-        <li><i class="fa fa-home" aria-hidden="true"></i><a href="index.php">Home</a><span>|</span></li>
-        <li> Welcome to Lombok Mart!!</li>
+        <li><i class="fa fa-home" aria-hidden="true" ></i><a href="index.php">Home</a></li>
+      
       </ul>
     </div>
   </div>
 <!-- //products-breadcrumb -->
 <!-- banner -->
-  <div class="banner">
-    <div class="w3l_banner_nav_left">
-      <nav class="navbar nav_bottom">
-       <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header nav_2">
-          <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          </button>
-         </div> 
-         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
-          <ul class="nav navbar-nav nav_1">
-         <li></i> <a href="index.php"> Home</a></li>
-            <li><a href="pakaian.php"> Pakaian</a></li>
-            <li><a href="makanan.php"> Makanan</a></li>
-            <li><a href="login.php" style="background-color: grey;"> Login</a></li>
-          
-          </ul>
-         </div><!-- /.navbar-collapse -->
-      </nav>
-    </div>
-    <div class="w3l_banner_nav_right">
+ 
+    <div class="w3l_banner_nav_center">
       <section class="slider">
         <div class="flexslider">          
           <ul class="slides">
              <!-- login -->
     <div class="w3_login">
-      <h3> Login Lombok Mart</h3>
+      <p align="center">Selamat Datang</p><br><h3> Login Dengan Akun Anda</h3>
       <div class="w3_login_module">
         <div class="module form-module">
           <div class="toggle"><i class="fa fa-times fa-pencil"></i>

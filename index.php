@@ -1,4 +1,4 @@
-<!--imam
+<!--
 author: W3layouts
 author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -48,9 +48,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 <!-- header -->
 	<div class="agileits_header">
-		<div class="w3l_offers"><!--
-			<a href="products.html">Today's special Offers !</a>-->
-		</div>
+		
 		<div class="w3l_search">
 			<!--<form action="#" method="post">
 				<input type="text" name="Product" value="Search a product..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search a product...';}" required="">
@@ -58,7 +56,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</form>-->
 		</div>
 		
-		<!-- <div class="w3l_header_right">
+<!-- 		<div class="w3l_header_right">
 			<ul>
 				<li class="dropdown profile_details_drop">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i><span class="caret"></span></a>
@@ -74,7 +72,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</ul>
 		</div> -->
 		<div class="w3l_header_right1">
-			<h2><a href="kontak.php">Profile</a></h2>
+			
 		</div>
 		<div class="clearfix"> </div>
 	</div>
@@ -94,35 +92,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	});
 	</script>
 <!-- //script-for sticky-nav -->
-	<div class="logo_products">
-		<div class="container">
-			<div class="w3ls_logo_products_left">
-				<h1><a href="#"><span>TOKO ONLINE</span> LOMBOK MART</a></h1>
-			</div>
-			<div class="w3ls_logo_products_left1">
-				<!--<ul class="special_items">
-					<li><a href="events.html">Events</a><i>/</i></li>
-					<li><a href="about.html">About Us</a><i>/</i></li>
-					<li><a href="products.html">Best Deals</a><i>/</i></li>
-					<li><a href="services.html">Services</a></li>
-				</ul> -->
-			</div>
-			<div class="w3ls_logo_products_left1">
-				<!--<ul class="phone_email">
-					<li><i class="fa fa-phone" aria-hidden="true"></i>(+0123) 234 567</li>
-					<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:store@grocery.com">ocikyamin93@gmail.com</a></li>
-				</ul> -->
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
+	
 <!-- //header -->
 <!-- products-breadcrumb -->
-	<div class="products-breadcrumb">
-		<div class="container">
+	<div class="products-breadcrumb"style="background-color: green">
+		<div class="container" >
 			<ul>
 				<li><i class="fa fa-home" aria-hidden="true"></i><a href="index.php">Home</a><span>|</span></li>
-				<li></li>
+				<li><h2><font color="white" size="5"><a href="kontak.php">Profile</a></font></h2></li>
+
 			</ul>
 		</div>
 	</div>
@@ -141,12 +119,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				  </button>
 			   </div> 
 			   <!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
-					<ul class="nav navbar-nav nav_1">
-						<li></i> <a href="index.php"> Home</a></li>
-						<li><a href="pakaian.php"> Pakaian</a></li>
-						<li><a href="makanan.php"> Makanan</a></li>
-						<li><a href="login.php" style="background-color: grey;"> Login</a></li>
+				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs"  style="background:  white;">
+					<ul class="nav navbar-nav nav_1" class="clearfix" >
+						<li><a href="index.php"><b>Home</b></a></li>
+						<li><a href="pakaian.php"><b>Pakaian</b></a></li>
+						<li><a href="makanan.php"><b>Makanan</b></a></li>
+						<li><a href="login.php"> <b>Login</b></a></li><br>
+					<img src="aa.png" width="250px">
 					
 					</ul>
 				 </div><!-- /.navbar-collapse -->
@@ -157,8 +136,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="flexslider">
 					<ul class="slides">
 						<li>
-							<div class="w3l_banner_nav_right_banner">
-								<h3>Make your <span>food</span> with Spicy.</h3>
+							<div class="w3l_banner_nav_right_banner" >
+								<h3 ><font color="black">Make your</font> <span>food</span> with Spicy.</h3>
 								<div class="more">
 									<a href="index.php" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Shop now</a>
 								</div>
@@ -203,18 +182,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<div class="clearfix">
 			
-
-
 		</div>
 	</div>
 <!-- banner -->
 	<div class="banner_bottom">
-			
-			
-		
-	</div>
-<!-- top-brands -->
-	<div class="top-brands">
+		<div class="top-brands">
 		<div class="container">
 			<h3> Produk Kami</h3>
 			<div class="agile_top_brands_grids">
@@ -293,7 +265,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					
 						</div>
 					</div>
-				</div> -->
+				</di	
+		
+	</div>
+<!-- top-brands -->
+
 				<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -306,7 +282,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="agile_footer_grids">
 				<div class="col-md-3 w3_footer_grid agile_footer_grids_w3_footer">
 					<div class="w3_footer_grid_bottom">
-						<h4><p>© 2019 Lombok Mart | Design by Four Group </p></h4>
+						<h4><p>© 2019 Lumbung Lombok UBG | Design by Five Group </p></h4>
 						
 					</div>
 				</div>

@@ -58,11 +58,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</form>-->
 		</div>
 
-		
-		<div class="w3l_header_right1">
-			<h2><a href="kontak.php"> Hubungi Kami</a></h2>
-		</div>
-		<div class="clearfix"> </div>
+	
 	</div>
 <!-- script-for sticky-nav -->
 	<script>
@@ -80,35 +76,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	});
 	</script>
 <!-- //script-for sticky-nav -->
-	<div class="logo_products">
-		<div class="container">
-			<div class="w3ls_logo_products_left">
-				<h1><a href="index.html"><span>TOKO ONLINE</span> LOMBOK MART</a></h1>
-			</div>
-			<div class="w3ls_logo_products_left1">
-				<!--<ul class="special_items">
-					<li><a href="events.html">Events</a><i>/</i></li>
-					<li><a href="about.html">About Us</a><i>/</i></li>
-					<li><a href="products.html">Best Deals</a><i>/</i></li>
-					<li><a href="services.html">Services</a></li>
-				</ul> -->
-			</div>
-			<div class="w3ls_logo_products_left1">
-				<!--<ul class="phone_email">
-					<li><i class="fa fa-phone" aria-hidden="true"></i>(+0123) 234 567</li>
-					<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:store@grocery.com">ocikyamin93@gmail.com</a></li>
-				</ul> -->
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
+	
 <!-- //header -->
 <!-- products-breadcrumb -->
-	<div class="products-breadcrumb">
+	<div class="products-breadcrumb" style="background-color: green">
 		<div class="container">
 			<ul>
 				<li><i class="fa fa-home" aria-hidden="true"></i><a href="index.php">Home</a><span>|</span></li>
-				<li> Selamat Datang di LOMBOK MART !!</li>
+				<li> <b><font color="white" size="5">Selamat Datang di LUMBUNG LOMBOK UBG !!</font></b></li>
 			</ul>
 		</div>
 	</div>
@@ -127,12 +102,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				  </button>
 			   </div> 
 			   <!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
-					<ul class="nav navbar-nav nav_1">
-						<li></i> <a href="index.php"> Home</a></li>
-						<li><a href="pakaian.php"> Pakaian</a></li>
-						<li><a href="makanan.php"> Makanan</a></li>
-						<li><a href="login.php" style="background-color: grey;"> Login</a></li>
+				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs" style="background:  white;">
+					<ul class="nav navbar-nav nav_1" class="clearfix">
+						<li></i> <a href="index.php"><b>Home</b></a></li>
+						<li><a href="pakaian.php"><b>Pakaian</b></a></li>
+						<li><a href="makanan.php"><b>Makanan</b></a></li>
+						<li><a href="login.php"><b>Login</b></a></li><br>
+						<img src="aa.png" width="250px">
 					
 					</ul>
 				 </div><!-- /.navbar-collapse -->
